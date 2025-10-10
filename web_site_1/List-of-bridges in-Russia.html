@@ -14,29 +14,19 @@
 <details>
   <summary>График</summary>
 	<br>
-			<table>
-				<tr>
-					<th>Значение по оси ОХ</th>
-					<th>Результат</th>
-				</tr>
-				<tr>
-					<td>
-						<form>
-							<input	type="radio"	name="type" value="c"> Регион <br>
-							<input	type="radio"	name="type" value="y"> Год открытия
-						</form>
-					</td>
-
-					<td>
-						<form>
-							<input type="checkbox" name="val" value="0"> Максимальная длина моста <br>
-							<input type="checkbox" name="val" value="1"> Минимальная длина моста <br>
-							<input type="checkbox" name="val" value="2"> Максимальная пропускная способность <br>
-							<input type="checkbox" name="val" value="3"> Минимальная пропускная способность
-						</form>
-					</td>
-				</tr>
-			</table>
+	<form>
+		<label><strong>Значение по оси ОХ:</strong></label><br>
+		<input type="radio" name="type" value="c"> Регион <br>
+		<input type="radio" name="type" value="y"> Год открытия
+	</form>
+	<br>
+	<form>
+		<label><strong>Результат:</strong></label><br>
+		<input type="checkbox" name="val" value="0"> Максимальная длина моста <br>
+		<input type="checkbox" name="val" value="1"> Минимальная длина моста <br>
+		<input type="checkbox" name="val" value="2"> Максимальная пропускная способность <br>
+		<input type="checkbox" name="val" value="3"> Минимальная пропускная способность
+	</form>
 <input type="submit" value="Построить">
 </details>
 <br>
