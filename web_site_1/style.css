@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    border-bottom: 2px solid #ddd;
+    overflow: hidden;
+}
+
+.header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 15px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    overflow: hidden;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #333;
+    padding: 12px 25px;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu-item:hover {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.image-section {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0 20px;
+    overflow: hidden;
+    height: 400px;
+}
+
+.large-block {
+    width: 59%;
+    height: 100%;
+    float: left;
+    margin-right: 1%;
+    overflow: hidden;
+}
+
+.large-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.right-blocks {
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.small-block {
+    width: 100%;
+    height: 48%;
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+
+.small-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.full-block {
+    max-width: 1400px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+    height: 250px;
+    overflow: hidden;
+    clear: both;
+}
+
+.full-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circles-section {
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.circle-item {
+    display: inline-block;
+    width: 200px;
+    margin: 0 20px 20px 20px;
+    vertical-align: top;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.circle-text {
+    font-size: 14px;
+    color: #666;
+}
+
+.content-blocks {
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.content-left {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.content-text {
+    padding: 20px;
+}
+
+.content-text h3 {
+    margin-bottom: 15px;
+}
+
+.content-text p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.content-link {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content-center {
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.content-center h3 {
+    margin-bottom: 15px;
+}
+
+.content-center p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.content-right {
+    width: 34%;
+    float: right;
+}
+
+.right-item {
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.right-image {
+    width: 120px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.right-text h3 {
+    margin-bottom: 8px;
+}
+
+.right-text p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    clear: both;
+}
