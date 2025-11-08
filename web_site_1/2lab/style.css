@@ -16,7 +16,7 @@ header {
 
 
 .header-container {
-    max-width: 1400px;
+    width: 95%;
     margin: 0 auto;
     font-size: 0;
 }
@@ -41,8 +41,7 @@ header {
 }
 
 .menu-item {
-    text-decoration: underline;
-    text-decoration-color: transparent;
+    text-decoration: none;
     color: #333;
     padding: 12px 25px;
     border: 2px solid transparent;
@@ -59,7 +58,7 @@ header {
 }
 
 .image-section {
-    max-width: 1400px;
+    width: 95%;
     margin: 20px auto;
     padding: 0 2%;
     overflow: hidden;
@@ -118,7 +117,7 @@ header {
 }
 
 .circles-section {
-    max-width: 1400px;
+    width: 95%;
     margin: 40px auto;
     padding: 0 2%;
     text-align: justify;
@@ -166,7 +165,7 @@ header {
 }
 
 .content-blocks {
-    max-width: 1400px;
+    width: 95%;
     margin: 40px auto;
     padding: 0 2%;
     overflow: hidden;
@@ -255,25 +254,28 @@ header {
 .right-item {
     border: 2px solid #333;
     margin-bottom: 2%;
+    width: 100%;
     padding: 2%;
     overflow: hidden;
 }
 
 .right-image {
-    width: 32%;
     float: left;
+    width: 125px;
+    height: 125px;
     margin-right: 4%;
+    overflow: hidden;
 }
 
 .right-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .right-text {
-    float: left;
-    width: 64%;
+    overflow: hidden;
 }
 
 .right-text h3 {
@@ -284,6 +286,12 @@ header {
     font-size: 13px;
     color: #666;
     margin-bottom: 10px;
+}
+
+.right-item::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 
